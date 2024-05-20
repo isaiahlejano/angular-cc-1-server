@@ -1,1 +1,263 @@
-{"items":[{"id":1,"image":"assets/images/products/image1.jpg","name":"Black Hoodie","price":"24","rating":5},{"id":2,"name":"Branded Shoes","image":"assets/images/products/image2.jpg","price":"13.5","rating":4},{"id":3,"image":"assets/images/products/image3.jpg","name":"White","price":"85.0","rating":3},{"id":4,"image":"assets/images/products/image4.jpg","name":"Gray Dress 1","price":"625","rating":3},{"id":5,"name":"Black T-Shirt (Mens)","image":"assets/images/products/image5.jpg","price":"55.0","rating":5},{"id":6,"name":"Jeans Jacket","image":"assets/images/products/image6.jpg","price":"115.0","rating":4},{"id":7,"name":"Black T-Shirt (Womens)","image":"assets/images/products/image7.jpg","price":"25.0","rating":3},{"id":8,"name":"Beige Trench Coat","image":"assets/images/products/image8.jpg","price":"52.0","rating":1},{"id":9,"name":"Stylish Shoes","image":"assets/images/products/image9.jpg","price":"32.0","rating":2},{"id":10,"name":"Stylish Shoes - B","image":"assets/images/products/image10.jpg","price":"55.0","rating":5},{"id":11,"name":"Beanie Black","image":"assets/images/products/image11.jpg","price":"15.0","rating":1},{"id":12,"name":"Beanie Orange","image":"assets/images/products/image12.jpg","price":"12.5","rating":2},{"id":13,"name":"Beanie Red","image":"assets/images/products/image13.jpg","price":"14.5","rating":4},{"id":15,"name":"Cyan Long Sleeve Shirt","image":"assets/images/products/image15.jpg","price":"15.5","rating":5},{"id":16,"name":"Yellow Raincoat","image":"assets/images/products/image16.jpg","price":"12.5","rating":3}]}
+{
+    "items": [
+        {
+            "id": 1,
+            "image": "assets/images/products/image1.jpg",
+            "name": "Black Hoodie",
+            "price": "24",
+            "rating": 5
+        },
+        {
+            "id": 2,
+            "name": "Branded Shoes",
+            "image": "assets/images/products/image2.jpg",
+            "price": "13.5",
+            "rating": 4
+        },
+        {
+            "id": 3,
+            "image": "assets/images/products/image3.jpg",
+            "name": "White",
+            "price": "85.0",
+            "rating": 3
+        },
+        {
+            "id": 4,
+            "image": "assets/images/products/image4.jpg",
+            "name": "Gray Dress 1",
+            "price": "625",
+            "rating": 3
+        },
+        {
+            "id": 5,
+            "name": "Black T-Shirt (Mens)",
+            "image": "assets/images/products/image5.jpg",
+            "price": "55.0",
+            "rating": 5
+        },
+        {
+            "id": 6,
+            "name": "Jeans Jacket",
+            "image": "assets/images/products/image6.jpg",
+            "price": "115.0",
+            "rating": 4
+        },
+        {
+            "id": 7,
+            "name": "Black T-Shirt (Womens)",
+            "image": "assets/images/products/image7.jpg",
+            "price": "25.0",
+            "rating": 3
+        },
+        {
+            "id": 8,
+            "name": "Beige Trench Coat",
+            "image": "assets/images/products/image8.jpg",
+            "price": "52.0",
+            "rating": 1
+        },
+        {
+            "id": 9,
+            "name": "Stylish Shoes",
+            "image": "assets/images/products/image9.jpg",
+            "price": "32.0",
+            "rating": 2
+        },
+        {
+            "id": 10,
+            "name": "Stylish Shoes - B",
+            "image": "assets/images/products/image10.jpg",
+            "price": "55.0",
+            "rating": 5
+        },
+        {
+            "id": 11,
+            "name": "Beanie Black",
+            "image": "assets/images/products/image11.jpg",
+            "price": "15.0",
+            "rating": 1
+        },
+        {
+            "id": 12,
+            "name": "Beanie Orange",
+            "image": "assets/images/products/image12.jpg",
+            "price": "12.5",
+            "rating": 2
+        },
+        {
+            "id": 13,
+            "name": "Beanie Red",
+            "image": "assets/images/products/image13.jpg",
+            "price": "14.5",
+            "rating": 4
+        },
+        {
+            "id": 15,
+            "name": "Cyan Long Sleeve Shirt",
+            "image": "assets/images/products/image15.jpg",
+            "price": "15.5",
+            "rating": 5
+        },
+        {
+            "id": 16,
+            "name": "Yellow Raincoat",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 17,
+            "name": "Yellow Raincoat 17",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 18,
+            "name": "Yellow Raincoat 18",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 19,
+            "name": "Yellow Raincoat 19",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 20,
+            "name": "Yellow Raincoat 20",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 21,
+            "name": "Yellow Raincoat 21",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 22,
+            "name": "Yellow Raincoat 22",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 23,
+            "name": "Yellow Raincoat 23",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 24,
+            "name": "Yellow Raincoat 24",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 25,
+            "name": "Yellow Raincoat 25",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 26,
+            "name": "Yellow Raincoat 26",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 27,
+            "name": "Yellow Raincoat 27",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 28,
+            "name": "Yellow Raincoat 28",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 29,
+            "name": "Yellow Raincoat 29",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 30,
+            "name": "Yellow Raincoat 30",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 31,
+            "name": "Yellow Raincoat 31",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 32,
+            "name": "Yellow Raincoat 32",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 33,
+            "name": "Yellow Raincoat 33",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 34,
+            "name": "Yellow Raincoat 34",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 35,
+            "name": "Yellow Raincoat 35",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 36,
+            "name": "Yellow Raincoat 36",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 37,
+            "name": "Yellow Raincoat 37",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        },
+        {
+            "id": 38,
+            "name": "Yellow Raincoat 38",
+            "image": "assets/images/products/image16.jpg",
+            "price": "12.5",
+            "rating": 3
+        }
+    ]
+}

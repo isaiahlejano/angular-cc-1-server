@@ -19,10 +19,10 @@ app.use(cors(corsOptions));
 app.use(express.json());
 
 // GET route - Allows to get all the items
-// example: localhost:3000/clothes?page=0&perPage=2
-app.get("/clothes", (req, res) => {
+// example: localhost:3000/api?page=0&perPage=2
+app.get("/api", (req, res) => {
   const page = parseInt(req.query.page) || 0;
-  const perPage = parseInt(req.query.perPage) || 10;
+  const perPage = parseInt(req.query.perPage) || 12;
 
   fs.readFile("db.json", "utf8", (err, data) => {
     if (err) {
@@ -49,7 +49,7 @@ app.get("/clothes", (req, res) => {
 });
 
 // POST route - Allows to add a new item
-// example: localhost:3000/clothes
+// example: localhost:3000/api
 /*
   body: {
     "image": "https://your-image-url.com/image.png",
@@ -58,7 +58,7 @@ app.get("/clothes", (req, res) => {
     "rating": 4
   }
 */
-app.post("/clothes", (req, res) => {
+app.post("/api", (req, res) => {
   const { image, name, price, rating } = req.body;
 
   fs.readFile("db.json", "utf8", (err, data) => {
@@ -98,7 +98,7 @@ app.post("/clothes", (req, res) => {
 });
 
 // PUT route - Allows to update an item
-// example: localhost:3000/clothes/1
+// example: localhost:3000/api/1
 /*
   body: {
     "image": "https://your-image-url.com/image.png",
@@ -107,7 +107,7 @@ app.post("/clothes", (req, res) => {
     "rating": 4
   }
 */
-app.put("/clothes/:id", (req, res) => {
+app.put("/api/:id", (req, res) => {
   const id = parseInt(req.params.id);
   const { image, name, price, rating } = req.body;
 
@@ -148,8 +148,8 @@ app.put("/clothes/:id", (req, res) => {
 });
 
 // DELETE route - Allows to delete an item
-// example: localhost:3000/clothes/1
-app.delete("/clothes/:id", (req, res) => {
+// example: localhost:3000/api/1
+app.delete("/api/:id", (req, res) => {
   const id = parseInt(req.params.id);
 
   fs.readFile("db.json", "utf8", (err, data) => {
